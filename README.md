@@ -1,1 +1,1 @@
-# IEEE_WIE
+# EJS-project

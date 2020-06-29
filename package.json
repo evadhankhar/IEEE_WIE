@@ -1,0 +1,27 @@
+{
+  "name": "ejs",
+  "main": "server.js",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.6.1",
+    "express-ejs-layouts": "^1.1.0"
+  },
+  "description": "node-ejs\r ========",
+  "version": "1.0.0",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scotch-io/node-ejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scotch-io/node-ejs/issues"
+  },
+  "homepage": "https://github.com/scotch-io/node-ejs#readme"
+}
