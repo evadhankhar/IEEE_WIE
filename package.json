@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/scotch-io/node-ejs/issues"
   },
-  "homepage": "https://github.com/scotch-io/node-ejs#readme"
+  "homepage": "https://github.com/scotch-io/node-ejs#readme",
+  "keywords": []
 }
