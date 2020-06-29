@@ -24,7 +24,7 @@ app.get('/contact',function(req,res){
 app.get('/add/',function(req,res){
 	var x = req.query.firstNumber
 	var y = req.query.secondNumber
-	var z= x+y
+	var z= Number(x)+Number(y)
 	res.send('answer:'+z)
 })
 app.get('/calcBMI/',function(req,res){
