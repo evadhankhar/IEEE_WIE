@@ -18,11 +18,13 @@
     "type": "git",
     "url": "git+https://github.com/scotch-io/node-ejs.git"
   },
+  
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scotch-io/node-ejs/issues"
   },
+
   "homepage": "https://github.com/scotch-io/node-ejs#readme",
   "keywords": []
 }
