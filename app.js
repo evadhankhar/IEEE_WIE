@@ -10,7 +10,6 @@ app.get('/about', function(req, res) {
 app.get('/contact',function(req,res){
 	res.render('pages/contact')
 })
-
 app.get('/add/',function(req,res){
 	var x = req.query.firstNumber
 	var y = req.query.secondNumber
@@ -23,6 +22,5 @@ app.get('/calcBMI/',function(req,res){
 	var z= (Number(x)/(Number(y)*Number(y))).toFixed(2)
 	res.send('answer:'+z)
 })
-
 app.listen(8080||process.env.PORT);
 console.log('8080 is the magic port');
